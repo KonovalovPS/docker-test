@@ -1,0 +1,10 @@
+version: "3"
+
+services:
+  hz:
+    build: .
+    restart: always
+    environment:
+      - TZ=Europe/Moscow
+    ports:
+      - "3000:3000"

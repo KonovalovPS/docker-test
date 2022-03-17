@@ -9,6 +9,4 @@ RUN yarn
 
 EXPOSE 3000
 
-ENV TZ Europe/Moscow
-
 CMD ["node", "index.js"]
